@@ -47,6 +47,7 @@ li a:hover {
 }
 
 .content {
+    margin: 20px;
     border: 2px solid yellow;
     width: 50%;
     display: flex;
@@ -54,6 +55,7 @@ li a:hover {
 }
 
 .textBody {
+    margin: 20px;
     width: 50%;
 }
 
@@ -63,14 +65,17 @@ li a:hover {
 
 h1 {
     color: white;
+    text-align: center;
 }
 
 h2 {
     color: white;
+    text-align: center;
 }
 
 h3 {
     color: white;
+    text-align: center;
 }
 
 p {
