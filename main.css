@@ -1,43 +1,6 @@
 body {
-    background: rgb(40, 32, 46);
-}
-
-#navigationContainer {
-    width: 500px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-right: 1px solid rgb(200, 255, 0);
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    color: white;
-    background-color: #111;
-}
-
-.active {
-    color: #111;
-    background-color: #369ab3;
+    background: #301934;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #pageContent {
@@ -46,9 +9,21 @@ li a:hover {
     align-items: center;
 }
 
+#navContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 600px;
+    border-radius: 25px;
+}
+
+.active {
+    color: #111;
+    background-color: #027491;
+}
+
 .content {
     margin: 20px;
-    border: 2px solid yellow;
     width: 50%;
     display: flex;
     align-items: center;
@@ -56,21 +31,47 @@ li a:hover {
 
 .textBody {
     margin: 20px;
+    border: 2px solid yellow;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 50%;
+    background-color: black;
+    border-radius: 25px;
 }
 
 .content img {
     width: 50%;
 }
 
+a {
+    flex-basis: 25%;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid rgb(200, 255, 0);
+    border-left: 1px solid rgb(200, 255, 0);
+    border-radius: 25px;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover:not(.active) {
+    color: white;
+    background-color: #111;
+}
+
 h1 {
     color: white;
     text-align: center;
+    font-size: 75px;
 }
 
 h2 {
     color: white;
     text-align: center;
+    font-size: 50px;
 }
 
 h3 {
