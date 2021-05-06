@@ -12,14 +12,14 @@ body {
 #navContainer {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #111;
     width: 600px;
     border-radius: 25px;
 }
 
 .active {
     color: #111;
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 .content {
@@ -31,11 +31,11 @@ body {
 
 .textBody {
     margin: 20px;
-    border: 2px solid yellow;
+    border: 2px solid #FFFF00;
     padding-left: 20px;
     padding-right: 20px;
     width: 50%;
-    background-color: black;
+    background-color: #111;
     border-radius: 25px;
 }
 
@@ -46,25 +46,25 @@ body {
 a {
     flex-basis: 25%;
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     font-size: 24px;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 2px solid rgb(200, 255, 0);
-    border-left: 2px solid rgb(200, 255, 0);
+    border-right: 2px solid #FFFF00;
+    border-left: 2px solid #FFFF00;
     border-radius: 25px;
 }
 
 /* Change the link color to #111 (black) on hover */
 a:hover:not(.active) {
-    color: white;
+    color: #FFFFFF;
     background-color: #111;
 }
 
 h1 {
     margin: 5px;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     font-size: 75px;
 }
@@ -72,16 +72,16 @@ h1 {
 h2 {
     margin-top: 15px;
     margin-bottom: 0px;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     font-size: 50px;
 }
 
 h3 {
-    color: white;
+    color: #FFFFFF;
     text-align: center;
 }
 
 p {
-    color: white;
+    color: #FFFFFF;
 }
